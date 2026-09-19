@@ -5,6 +5,7 @@ Welcome to my personal Security Operations Center (SOC) reference repository. Th
 ## 📑 Available Cheat Sheets
 
 * **[Windows Logging & Event IDs](windows-logging-cheat-sheet.md)** — Core Windows Security Event Logs, Sysmon, and PowerShell auditing parameters.
+* **[Windows Threat Detection (Initial Access)](windows-threat-detection.md)** — Detecting RDP brute-force, phishing/macro execution chains, and removable media threats.
 
 ---
 
