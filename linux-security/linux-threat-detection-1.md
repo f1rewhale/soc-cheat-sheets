@@ -45,3 +45,4 @@ Attackers exploit vulnerable web applications (e.g., Apache, Nginx) to drop web 
 1. **Brute-Force Thresholds:** Monitor for a rapid spike (>20 events/min) of `Failed password` logs from a single IP, followed immediately by an `Accepted` event.
 2. **Web Server Process Spawning:** Service accounts like `www-data` should **never** spawn interactive command interpreters (`/bin/bash`, `sh`). Treat any shell creation under a web server daemon as a critical incident.
 3. **Authorized Keys Monitoring:** Watch for write events to `~/.ssh/authorized_keys` — adding an SSH key is a common persistence move immediately following initial access.
+4. The process tree analysis!!!
