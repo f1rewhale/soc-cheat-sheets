@@ -12,6 +12,9 @@ Welcome to my personal Security Operations Center (SOC) reference repository. Th
   * **[Part 2: Post-Exploitation](windows-security/windows-threat-detection-2.md)** — Discovery commands, Data Collection/Staging, and Ingress Tool Transfer (Certutil, BITSAdmin).
   * **[Part 3: Persistence & C2](windows-security/windows-threat-detection-3.md)** — Scheduled Tasks, Service creation, Run Key modifications, and Shadow Copy deletion.
 
+### Linux Security
+  * **[Linux Logging for SOC](linux-security/linux-logging-cheat-sheet.md)** — Analyzing `/var/log`, `journalctl` queries, and `auditd` rules.
+
 #### Linux Threat Detection Series
   * **[Part 1: Initial Access](linux-security/linux-threat-detection-1.md)** — Detecting SSH brute-force, web shell uploads, and service account misuse.
   * **[Part 2: Post-Exploitation](linux-security/linux-threat-detection-2.md)** — Discovery commands, process masquerading, and cryptomining detection.
